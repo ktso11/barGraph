@@ -1,0 +1,35 @@
+<!--        1. LANG ATTR      -->
+<!-- allow user agents to render content more meaningfully based on 
+accepted cultural practice for a given language. Also assist speech synthesizers -->
+<html lang="en">
+  <head>
+    <!--      2. META DATA       -->
+    <!-- metadata about the HTML document, it is machine parsable.
+    Typically used to specify page description, keywords, author. 
+    used by browsers, search engines or other web services-->
+
+    <!--      2a. CHARSET       -->
+    <!-- web browser must know which character set to use.
+    utf-8 covers almost all of the characters and symbols in the world. -->
+    <meta charset="utf-8">
+
+    <!--      2b. VIEWPORT       -->
+    <!-- html5 introduced a method to set give browser instructions on how 
+    to control the page's dimensions and scaling.width=device-width 
+    means width of the page is equal to that of the user's device.
+    initial scale is the initial zoom level-->
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+    <title>Title</title>
+    <link rel="stylesheet" href="stylesheet/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.compatibility.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+
+  <body>
+    <div id="d3-container"></div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

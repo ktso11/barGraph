@@ -1,0 +1,10 @@
+* {
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.bar:hover{
+  opacity: .6;
+
+}

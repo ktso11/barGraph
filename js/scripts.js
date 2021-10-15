@@ -22,7 +22,7 @@ const svg = d3.select('#d3-container')
     .range([margin.left, width - margin.right])
     .padding(0.1);
 
-  const y = d3.scaleLinear() /
+  const y = d3.scaleLinear() 
     .domain([0, 100])
     .range([height - margin.bottom, margin.top]) 
 
